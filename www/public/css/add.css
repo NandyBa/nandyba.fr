@@ -1,0 +1,114 @@
+@media screen and (min-width: 980px) {
+    .post img{
+        max-width: 70%;
+        display: block;
+        margin: auto;
+    }
+    #wrapper{
+        margin: auto;
+        width: 65%
+    }
+    #wrapper-article{
+        margin: auto;
+        width: 70%
+    }
+}
+#wapper{
+    padding: 0 5em;
+}
+img{
+    max-width: 80%;
+}
+p, li{
+    /*A tester avec et sans*/
+    /*text-align: justify;*/
+    text-indent: 2em;
+    line-height: 1.55em;
+}
+#wrapper-article .post a{
+    color: rgb(0, 91, 209);
+    border-bottom: 1px dotted rgb(0, 91, 209)
+}
+#wrapper-article .post .author, .post > header .meta .author .name{
+    color: inherit;
+    border-bottom: none;
+}
+#wrapper-article #main p, #wrapper-article #main li{
+    font-size: 18px;
+    color: #333;
+    opacity: 0.9;
+}
+#warpper-article #main p{
+    text-indent:2em;
+    margin-bottom: 5em;
+}
+strong{
+    font-weight: 600;
+    color: #000;
+    opacity: 1;
+}
+.post{
+    padding: 3em 20px;
+}
+/* Footer */
+
+    #footer .icons {
+        color: #aaaaaa !important;
+    }
+    #footer .icons li{
+        text-indent: 0;
+    }
+    .fa{
+        display: block;
+    }
+
+    #footer #copyright {
+        font-family: "Raleway", Helvetica, sans-serif;
+        font-size: 0.5em !important;
+        font-weight: 400;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+    }
+
+    body.single #footer {
+        text-align: center;
+    }
+
+
+@media screen and (max-width: 425px){
+    p{
+        margin-bottom: 2.5em;
+    }
+    li{
+        margin-bottom: 1.5em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    p, h2, h3, h4, h5{
+        /*padding-left: 25px;
+        padding-right: 25px;*/
+    }
+}
+@media screen and (min-width: 1024px){
+    p, h2, h3, h4, h5{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    h3{text-transform: uppercase;}
+    h3,h4, h5{font-size: 1.3em}
+    ul{
+        padding-left: calc( 10% + 20px);
+        padding-right: 10%;
+    }
+}
+#dynamic{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vh;
+}
+
+h2{
+    font-size: 2.7vh!important
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Nandy Bâ | Blog",
+	"short_name": "Nandy Blog",
+	"lang": "fr",
+	"start_url": "https://nandyba.fr",
+	"display": "standalone",
+	"theme_color": "#009688",
+	"background_color": "#009688",
+	"icons":[
+		{
+			"src":"css/images/icon512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+
+}

@@ -1,0 +1,51 @@
+header span{
+    font-size: 2em;
+	font-family: "Pacifico", cursive;
+	color: #fff;
+}
+#header-cv{
+	background-color: #444;
+    color: rgba(255, 255, 255, 0.75);
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 8em 0 6em 0;
+    background-image: url(/css/images/tinny/flou.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    cursor: default;
+}
+
+header nav{
+    padding: 30px 10%;
+}
+header nav a{
+    font-size: 1.5em;
+    margin: 0 2.5%;
+}
+
+#intro{
+    text-align: left;
+}
+#intro .head{
+    text-align: center;
+}
+
+p a{font-weight: 500;}
+section.article img, #content img{width: 50%;height: auto;}

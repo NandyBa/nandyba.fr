@@ -1,0 +1,17 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^epargne-dynamique getArticle.php?article_id=1 [E]
+RewriteRule ^lendix-presentation getArticle.php?article_id=2 [E]
+RewriteRule ^epargner-a-30ans getArticle.php?article_id=3 [E]
+RewriteRule ^credit.fr-presentation getArticle.php?article_id=4 [E]
+
+
+RewriteRule ^edit/epargne-dynamique editArticle.php?article_id=1 [E]
+RewriteRule ^edit/lendix-presentation editArticle.php?article_id=2 [E]
+RewriteRule ^edit/epargner-a-30ans editArticle.php?article_id=3 [E]
+RewriteRule ^edit/credit.fr-presentation editArticle.php?article_id=4 [E]
+
+
+RewriteRule ^edit/article/([1-9]+)$ editArticle.php?article_id=$1 [E]
+RewriteRule ^get/article/([1-9]+)$ getArticle.php?article_id=$1 [E]
